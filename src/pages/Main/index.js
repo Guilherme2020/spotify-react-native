@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
-import {Container, ContainerScrollView} from './styles';
+import { Container, ContainerScrollView } from './styles';
 import SlideCard from '../../components/SlideCard';
 import TabBar from '../../components/TabBar';
 import Mock from '../../services/mock';
@@ -25,7 +25,7 @@ const Main = (props) => {
         {slides &&
           slides.map((slide, index) => (
             <SlideCard
-              onPress={() => console.warn('teste')}
+              onPress={() => console.warn(slide)}
               key={index}
               slide={slide}
             />

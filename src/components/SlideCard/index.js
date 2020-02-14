@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Title, SlideScroll } from './styles';
 import Card from '../Card';
 
-const SlideCard = ({slide}, props) => {
+const SlideCard = ({slide}, ...props) => {
   return (
     <Container>
       <Title>{slide.title}</Title>

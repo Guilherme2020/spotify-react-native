@@ -8,7 +8,7 @@ import {
   SubtitleTitle,
 } from './styles';
 
-const Card = ({itens}, props) => {
+const Card = ({itens, ...props}) => {
   return (
     <Container>
       <TouchableOpacity activeOpacity={0.5} onPress={props.onPress}>
