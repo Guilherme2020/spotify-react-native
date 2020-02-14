@@ -59,9 +59,12 @@ export const MusicNumber = styled.Text`
   padding: 20px;
 `;
 
-export const MusicName = styled.Text`
+export const MusicName = styled.Text.attrs({
+  numberOfLines: 1,
+})`
   color: #fff;
   padding: 5px 0px;
+  width: 320px;
   font-size: 18px;
 `;
 
@@ -75,7 +78,7 @@ export const Photo = styled.Image`
   left: 0;
   top: 0%;
   right: 0;
-  height: 320px;
+  height: 290px;
   bottom: 50%;
 `;
 

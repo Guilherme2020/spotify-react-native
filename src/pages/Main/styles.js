@@ -5,6 +5,8 @@ export const Container = styled.SafeAreaView`
   background: #111;
 `;
 
-export const ContainerScrollView = styled.ScrollView.attrs({
-  showsVerticalScrollIndicator: false,
+export const ContainerList = styled.FlatList.attrs({
+  // showsVerticalScrollIndicator: false,
+  showsHorizontalScrollIndicator: false,
+  horizontal: true,
 })``;

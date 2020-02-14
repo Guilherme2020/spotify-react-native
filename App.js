@@ -24,15 +24,6 @@ const Routes = createAppContainer(
   ),
 );
 
-const App = () => {
-  return (
-    <React.Fragment>
-      <StatusBar barStyle="light-content" />
-      <Routes />
-      {/* <Album /> */}
-      {/* <TabBar /> */}
-    </React.Fragment>
-  );
-};
+const App = () => <Routes />;
 
 export default App;
