@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import LinearGradient from 'react-native-linear-gradient';
+import styled from 'styled-components/native';
 
 export const Container = styled.View`
   flex: 1;
@@ -73,8 +73,9 @@ export const MusicListening = styled.Text`
 export const Photo = styled.Image`
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 0%;
   right: 0;
+  height: 320px;
   bottom: 50%;
 `;
 
@@ -92,9 +93,10 @@ export const GroupItemNavBar = styled.View`
 
 export const ButtonFollow = styled.Text`
   margin-right: 20px;
-  color: #fff;
+  color: #ffffff;
+  font-weight: bold;
   border-color: #fff;
-  border-width: 1px;
+  border-width: 2px;
   padding: 6px 10px;
   border-radius: 6px;
 `;
@@ -112,7 +114,8 @@ export const BandName = styled.Text`
   padding: 15px;
 `;
 export const BandFooter = styled.Text`
-  font-size: 12px;
+  font-size: 13px;
   text-transform: uppercase;
   color: #e6e6e6;
+  font-weight: bold;
 `;

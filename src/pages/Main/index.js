@@ -2,9 +2,10 @@ import React, {useState, useEffect} from 'react';
 
 import {Container, ContainerScrollView} from './styles';
 import SlideCard from '../../components/SlideCard';
+import TabBar from '../../components/TabBar';
 import Mock from '../../services/mock';
 
-const Main = () => {
+const Main = (props) => {
   const [slides, setSlides] = useState([]);
 
   const onFetchSlides = async () => {
@@ -14,6 +15,7 @@ const Main = () => {
   };
 
   useEffect(() => {
+    // console.warn('props',props);
     onFetchSlides();
   }, []);
 
@@ -21,8 +23,15 @@ const Main = () => {
     <Container>
       <ContainerScrollView>
         {slides &&
-          slides.map((slide, index) => <SlideCard key={index} slide={slide} />)}
+          slides.map((slide, index) => (
+            <SlideCard
+              onPress={() => console.warn('teste')}
+              key={index}
+              slide={slide}
+            />
+          ))}
       </ContainerScrollView>
+      <TabBar />
     </Container>
   );
 };

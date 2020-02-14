@@ -1,91 +1,378 @@
 [
   {
     "title": "Seus Podcasts mais escutados",
-    "itens":[
+    "itens": [
       {
+        "id": 1,
         "photo": "https://cdn-images-1.listennotes.com/podcasts/podcast-faladev-rocketseat-JsZAXbxDFLi-d9s78yQBRZD.1400x1400.jpg",
         "subtitle": {
           "title": "Fala Dev",
           "description": "Episódios de podecast escolhidos para você"
+        },
+        "album":{
+          "name": "Podcast FalaDev",
+          "photo": "https://cdn-images-1.listennotes.com/podcasts/podcast-faladev-rocketseat-JsZAXbxDFLi-d9s78yQBRZD.1400x1400.jpg",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "FalaDev #14 - Hospedagem para Node.js dicas e técnicas",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "FalaDev #13 - Evolução e futuro do React Native",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "FalaDev #12 - Boas práticas no front-end, técnicas e estratégias",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "FalaDev #11 - Técnicas de estudo e aprendizado tradicional",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "FalaDev #10 - Testes no back-end, TDD e estratégias"
+            }
+          ]
         }
+
       },
       {
+        "id": 2,
         "photo": "https://i.scdn.co/image/43c9fec68da45cef0c610778dc17ecbba8b63629",
         "subtitle": {
           "title": "Hipsters.tech",
           "description": "Episódios de podecast escolhidos para você"
+        },
+        "album":{
+          "name":  "Hipsters.tech",
+          "photo": "https://i.scdn.co/image/43c9fec68da45cef0c610778dc17ecbba8b63629",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Micro frontends no Conta Azul - Hipsters on The Road #26",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "SRE: Site Reliability Engineering - Hipsters #187",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Algoritmos e estrutura de dados - Hipsters #186",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "UX Research - Hipsters #185",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Guia do Iniciante em github - Hipsters #184",
+              "listening": "95.002.100"
+
+            }
+          ]
         }
       },
       {
+        "id": 3,
         "photo": "https://i2.wp.com/legalmentesimples.com.br/wp-content/uploads/2019/02/template-noticias-podcast-nerdcast-site.png?fit=1920%2C1080&ssl=1",
-        "subtitle":{
+        "subtitle": {
           "title": "NerdCast",
           "description": "Episódios de podecast escolhidos para você"
+        },
+        "album":{
+          "name":  "NerdCast",
+          "photo": "https://i2.wp.com/legalmentesimples.com.br/wp-content/uploads/2019/02/template-noticias-podcast-nerdcast-site.png?fit=1920%2C1080&ssl=1",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "NerdCast 712 - Assim que nasce o Corona",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "NerdCast 20 - Batidores do NerdTrader",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "NerdCast 711 - Os Reflexos da Revolução Iraniana",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "NerdCast 48 - A engenharia mágica dos Imaginners",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "O oscar de 2020 vai para..",
+              "listening": "95.002.100"
+
+            }
+          ]
         }
       },
       {
+        "id": 4,
         "photo": "https://i.scdn.co/image/0339269a06388b11e68fabb53cd94b5aca6f070c",
-        "subtitle":{
-          "title": "TOTVS",
+        "subtitle": {
+          "title": "TOTVS Developers Podcast",
           "description": "Episódios de podecast escolhidos para você"
+        },
+        "album":{
+          "name":  "NerdCast",
+          "photo": "https://i.scdn.co/image/0339269a06388b11e68fabb53cd94b5aca6f070c",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "TOTVS Developers #10 - Código Font",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "TOTVS Developers #9 - Chatbot",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "TOTVS Developers #8 - Customer Success",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "TOTVS Developers Especial - Como construir uma carreira em TI",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "TOTVS Developers #7- Design para Devs",
+              "listening": "95.002.100"
+
+            }
+          ]
         }
+        
       },
       {
+        "id":5,
         "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTD2gvnWc9O7Pbqh9JuOm0Pi6VadgiHZ5gz9XoZI4nM1dEBLo16",
-        "subtitle":{
-          "title": "Amazon podcast",
+        "subtitle": {
+          "title": "Aws Podcast",
           "description": "Episódios de podecast escolhidos para você"
+        },
+        "album":{
+          "name":  "Aws Podcast",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTD2gvnWc9O7Pbqh9JuOm0Pi6VadgiHZ5gz9XoZI4nM1dEBLo16",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "355: How Training Helps Create Cultural Change at Macmiliam Learning",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "354: Update Show #1 February 2020",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "353: Getting the Most Out of Aws Data Exchange",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "352: Advanced Encryption Strategies for Beginners ",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "351: Update Show January 2020",
+              "listening": "95.002.100"
+
+            }
+          ]
         }
       }
-      
     ]
   },
   {
     "title": "Não sai dos seus ouvidos",
-    "itens":[
+    "itens": [
       {
+        "id": 6,
         "photo": "https://i.scdn.co/image/b67feeeee2ddfbfa295675e891fa9611f59f0c41",
         "subtitle": {
           "title": "João Manô",
           "description": "Salmo 139"
+        },
+        "album": {
+          "name": "Ecoar",
+          "photo": "https://i.scdn.co/image/b67feeeee2ddfbfa295675e891fa9611f59f0c41",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "João Manô | Tese 95 (Lutero)",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Entre Deuses (Dias)",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Melhor que a vida(Piper)",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Primazia (Jones)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Salmo 139 (Davi)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "O Veterano (Spurgeon)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Motivos (Washer)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Olhando Pra Sua Cruz (Bônus)",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 7,
         "photo": "https://i.scdn.co/image/064128354eed5b0a17b3e8ce9f31a7ff1b409ce7",
         "subtitle": {
           "title": "Ana Heloysa",
           "description": "O Semeador"
+        },
+        "album": {
+          "name": "Canções Peregrinas",
+          "photo": "https://i.scdn.co/image/064128354eed5b0a17b3e8ce9f31a7ff1b409ce7",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "O Semeador ",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Primeiro - Ana Heloysa (Dias)",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Pequenez",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Canção de Agostinho",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Ode à Alegria",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 8,
         "photo": "https://mosaic.scdn.co/640/ab67616d0000b2731e1cb4330bde8f5a2fc97078ab67616d0000b2732897b054e5361befa5cfa568ab67616d0000b2737096a804684825546789e6ccab67616d0000b273d40606eabec7635b2cc74ed2",
-        "subtitle":{
+        "subtitle": {
           "title": "Projeto Sola",
           "description": "Colossenses I"
+        },
+        "album": {
+          "name": "Single | Projeto Sola",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6RN4cnNJihwFDPpJ7JwG6Ys9TDUoeLTYiMwXYEzunwsAteB_5",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Confissões",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Colossenses 1",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Das Trevas à Luz",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Redenção",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Isaías 53",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 9,
         "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6RN4cnNJihwFDPpJ7JwG6Ys9TDUoeLTYiMwXYEzunwsAteB_5",
-        "subtitle":{
+        "subtitle": {
           "title": "Projeto Sola",
           "description": "Confissões"
+        },
+        "album": {
+          "name": "Single | Projeto Sola",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6RN4cnNJihwFDPpJ7JwG6Ys9TDUoeLTYiMwXYEzunwsAteB_5",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Confissões",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Colossenses 1",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Das Trevas à Luz",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Redenção",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Isaías 53",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 10,
         "photo": "https://pl.scdn.co/images/pl/default/7f3378897173706bcdec2661d19e53de5cc0586e",
-        "subtitle":{
+        "subtitle": {
           "title": "Concentração Perfeita",
           "description": "Concentração no máximo"
+        },
+        "album":{
+          "name": "The Significant One",
+          "photo": "https://pl.scdn.co/images/pl/default/7f3378897173706bcdec2661d19e53de5cc0586e",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Buttlerflies",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Juárez",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Absent Morning",
+              "listening": "356.602.210"
+            }
+          ]
         }
       }
-      
-     
     ]
   },
   {
     "title": "Jump back in",
-    "itens":[
+    "itens": [
       {
+        "id": 11,
         "photo": "https://i.scdn.co/image/ab67616d0000b273a4dac06a06a50134b301a5b9",
         "subtitle": {
           "title": "The Rivers and Robots",
@@ -97,87 +384,358 @@
         "subtitle": {
           "title": "João Manô",
           "description": "O Veterano (Spurgeon)"
+        },
+        "album": {
+          "name": "Ecoar",
+          "photo": "https://i.scdn.co/image/b67feeeee2ddfbfa295675e891fa9611f59f0c41",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "João Manô | Tese 95 (Lutero)",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Entre Deuses (Dias)",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Melhor que a vida(Piper)",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Primazia (Jones)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Salmo 139 (Davi)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "O Veterano (Spurgeon)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Motivos (Washer)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Olhando Pra Sua Cruz (Bônus)",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 12,
         "photo": "https://mosaic.scdn.co/640/ab67616d0000b2731e1cb4330bde8f5a2fc97078ab67616d0000b2732897b054e5361befa5cfa568ab67616d0000b2737096a804684825546789e6ccab67616d0000b273d40606eabec7635b2cc74ed2",
-        "subtitle":{
+        "subtitle": {
           "title": "Projeto Sola",
           "description": "Colossenses I"
+        },
+        "album": {
+          "name": "Single | Projeto Sola",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6RN4cnNJihwFDPpJ7JwG6Ys9TDUoeLTYiMwXYEzunwsAteB_5",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Confissões",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Colossenses 1",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Das Trevas à Luz",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Redenção",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Isaías 53",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 13,
         "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6RN4cnNJihwFDPpJ7JwG6Ys9TDUoeLTYiMwXYEzunwsAteB_5",
-        "subtitle":{
+        "subtitle": {
           "title": "Projeto Sola",
           "description": "Confissões"
+        },
+        "album": {
+          "name": "Single | Projeto Sola",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6RN4cnNJihwFDPpJ7JwG6Ys9TDUoeLTYiMwXYEzunwsAteB_5",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Confissões",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Colossenses 1",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Das Trevas à Luz",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Redenção",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Isaías 53",
+              "listening": "95.002.100"
+            }
+          ]
         }
       }
     ]
   },
   {
     "title": "Ouvir Novamente",
-    "itens":[
+    "itens": [
       {
+        "id": 14,
         "photo": "https://i.scdn.co/image/b67feeeee2ddfbfa295675e891fa9611f59f0c41",
         "subtitle": {
           "title": "João Manô",
           "description": "Salmo 139"
+        },
+        "album": {
+          "name": "Ecoar",
+          "photo": "https://i.scdn.co/image/b67feeeee2ddfbfa295675e891fa9611f59f0c41",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "João Manô | Tese 95 (Lutero)",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Entre Deuses (Dias)",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Melhor que a vida(Piper)",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Primazia (Jones)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Salmo 139 (Davi)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "O Veterano (Spurgeon)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Motivos (Washer)",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Olhando Pra Sua Cruz (Bônus)",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 15,
         "photo": "https://i.scdn.co/image/064128354eed5b0a17b3e8ce9f31a7ff1b409ce7",
         "subtitle": {
           "title": "Ana Heloysa",
           "description": "O Semeador"
+        },
+        "album": {
+          "name": "Canções Peregrinas",
+          "photo": "https://i.scdn.co/image/064128354eed5b0a17b3e8ce9f31a7ff1b409ce7",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "O Semeador ",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Primeiro - Ana Heloysa (Dias)",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Pequenez",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Canção de Agostinho",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Ode à Alegria",
+              "listening": "95.002.100"
+            }
+          ]
         }
+
       },
       {
+        "id": 16,
         "photo": "https://mosaic.scdn.co/640/ab67616d0000b2731e1cb4330bde8f5a2fc97078ab67616d0000b2732897b054e5361befa5cfa568ab67616d0000b2737096a804684825546789e6ccab67616d0000b273d40606eabec7635b2cc74ed2",
-        "subtitle":{
+        "subtitle": {
           "title": "Projeto Sola",
           "description": "Colossenses I"
+        },
+        "album": {
+          "name": "Single | Projeto Sola",
+          "photo": "https://mosaic.scdn.co/640/ab67616d0000b2731e1cb4330bde8f5a2fc97078ab67616d0000b2732897b054e5361befa5cfa568ab67616d0000b2737096a804684825546789e6ccab67616d0000b273d40606eabec7635b2cc74ed2",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Confissões",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Colossenses 1",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Das Trevas à Luz",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Redenção",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Isaías 53",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 17,
         "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6RN4cnNJihwFDPpJ7JwG6Ys9TDUoeLTYiMwXYEzunwsAteB_5",
-        "subtitle":{
+        "subtitle": {
           "title": "Projeto Sola",
           "description": "Confissões"
+        },
+        "album": {
+          "name": "Single | Projeto Sola",
+          "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6RN4cnNJihwFDPpJ7JwG6Ys9TDUoeLTYiMwXYEzunwsAteB_5",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Confissões",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Colossenses 1",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Das Trevas à Luz",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "Redenção",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Isaías 53",
+              "listening": "95.002.100"
+            }
+          ]
         }
       },
       {
+        "id": 18,
         "photo": "https://pl.scdn.co/images/pl/default/7f3378897173706bcdec2661d19e53de5cc0586e",
-        "subtitle":{
+        "subtitle": {
           "title": "Concentração Perfeita",
           "description": "Concentração no máximo"
         }
       }
-      
-     
     ]
   },
   {
     "title": "Novos Episódios de podcast",
-    "itens":[
+    "itens": [
       {
+        "id": 19,
         "photo": "https://cdn-images-1.listennotes.com/podcasts/podcast-faladev-rocketseat-JsZAXbxDFLi-d9s78yQBRZD.1400x1400.jpg",
         "subtitle": {
           "title": "FalaDev #13 - Evolução e futuro do React Native",
           "description": "6 de fevereiro de 2020"
+        },
+        "album":{
+          "name": "Podcast FalaDev",
+          "photo": "https://cdn-images-1.listennotes.com/podcasts/podcast-faladev-rocketseat-JsZAXbxDFLi-d9s78yQBRZD.1400x1400.jpg",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "FalaDev #14 - Hospedagem para Node.js dicas e técnicas",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "FalaDev #13 - Evolução e futuro do React Native",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "FalaDev #12 - Boas práticas no front-end, técnicas e estratégias",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "FalaDev #11 - Técnicas de estudo e aprendizado tradicional",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "FalaDev #10 - Testes no back-end, TDD e estratégias"
+            }
+          ]
         }
       },
       {
+        "id": 20,
         "photo": "https://i.scdn.co/image/43c9fec68da45cef0c610778dc17ecbba8b63629",
         "subtitle": {
           "title": "Hipsters.tech",
           "description": "Algoritmos e estrutura de dados - Hipsters #187"
+        },
+        "album":{
+          "name":  "Hipsters.tech",
+          "photo": "https://i.scdn.co/image/43c9fec68da45cef0c610778dc17ecbba8b63629",
+          "listening": "354.122.122",
+          "musics": [
+            {
+              "name": "Micro frontends no Conta Azul - Hipsters on The Road #26",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "SRE: Site Reliability Engineering - Hipsters #187",
+              "listening": "354.122.122"
+            },
+            {
+              "name": "Algoritmos e estrutura de dados - Hipsters #186",
+              "listening": "356.602.210"
+            },
+            {
+              "name": "UX Research - Hipsters #185",
+              "listening": "95.002.100"
+            },
+            {
+              "name": "Guia do Iniciante em github - Hipsters #184",
+              "listening": "95.002.100"
+
+            }
+          ]
         }
       }
-
-      
-      
-     
     ]
   }
 ]

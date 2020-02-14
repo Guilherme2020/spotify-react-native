@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {ScrollView} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {
   Container,
@@ -23,7 +24,8 @@ import {
   MusicListening,
 } from './styles';
 
-import musics from './musics.json';
+import musics from './music.json';
+import TabBar from '../../components/TabBar';
 
 const Musics = () => {
   return (
@@ -76,9 +78,12 @@ const Album = () => {
         </ButtonRandomOrder>
         <InfoCategory>Popular</InfoCategory>
         <ContainerMusic>
-          <Musics />
+          <ScrollView>
+            <Musics />
+          </ScrollView>
         </ContainerMusic>
       </Content>
+      <TabBar />
     </Container>
   );
 };

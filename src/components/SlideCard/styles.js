@@ -10,7 +10,7 @@ export const Title = styled.Text`
   font-weight: bold;
 `;
 
-export const SlideScroll = styled.ScrollView.attrs({
+export const SlideScroll = styled.FlatList.attrs({
   showsHorizontalScrollIndicator: false,
   horizontal: true,
 })``;
