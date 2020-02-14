@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Container, SubContainer, GroupAction, ActionName} from './styles';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 const TabBar = () => {
   const [iconConfigure] = useState({
