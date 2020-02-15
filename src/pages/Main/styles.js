@@ -8,5 +8,5 @@ export const Container = styled.SafeAreaView`
 export const ContainerList = styled.FlatList.attrs({
   // showsVerticalScrollIndicator: false,
   showsHorizontalScrollIndicator: false,
-  horizontal: true,
+  horizontal: false,
 })``;

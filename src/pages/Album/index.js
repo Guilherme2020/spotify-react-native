@@ -62,6 +62,9 @@ const Album = props => {
       );
     }
   };
+  const goBack = () => {
+    props.navigation.pop();
+  };
   return (
     <Container>
       <ContainerHeader>
@@ -73,7 +76,7 @@ const Album = props => {
           }}
         />
         <ContainerNavBar>
-          <Icon name="arrow-left" {...iconConfigure} />
+          <Icon onPress={() => goBack()} name="arrow-left" {...iconConfigure} />
           <GroupItemNavBar>
             <ButtonFollow>Seguindo</ButtonFollow>
             <Icon name="ellipsis-v" {...iconConfigure} />
