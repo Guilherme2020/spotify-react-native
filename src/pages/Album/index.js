@@ -71,8 +71,6 @@ const Album = props => {
         <Photo
           source={{
             uri: detail && detail.photo,
-            // uri:
-            //   'https://mosaic.scdn.co/640/ab67616d0000b2731e1cb4330bde8f5a2fc97078ab67616d0000b2732897b054e5361befa5cfa568ab67616d0000b2737096a804684825546789e6ccab67616d0000b273d40606eabec7635b2cc74ed2',
           }}
         />
         <ContainerNavBar>
